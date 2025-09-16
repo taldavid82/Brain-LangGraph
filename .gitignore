@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.sqlite3
+db.sqlite3
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+*.env
+*.venv
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.profile
+.ipython/
+.pytest_cache/
+
+# Logs
+*.log
+*.out
+*.err
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# PyCharm / JetBrains IDE
+.idea/
+*.iml
+
+# VSCode (just in case you switch)
+.vscode/
+
+# Build / distribution
+build/
+dist/
+wheels/
+*.manifest
+*.spec
+
+# Coverage / test reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+*.coverage.*
+.cache
+.pytest_cache/
